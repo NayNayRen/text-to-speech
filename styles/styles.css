@@ -1,0 +1,161 @@
+body {
+  background-color: #808080;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  background-color: rgb(60, 179, 113);
+  border-radius: 5px;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.btn:active {
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.btn:focus,
+select:focus {
+  outline: 0;
+}
+
+.button-box {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin: 5px auto 0 auto;
+  width: 50px;
+}
+
+.footer-logo img {
+  height: auto;
+  width: 100%;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 5px;
+  text-align: center;
+}
+
+main {
+  -ms-flex-align: center;
+  -ms-flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.speech {
+  color: #fff;
+}
+
+.text-box {
+  -webkit-box-shadow: 0 0 20px #000;
+  background-color: #333;
+  border-radius: 5px;
+  border: solid 1px #fff;
+  box-shadow: 0 0 20px #000;
+  color: #fff;
+  padding: 40px 20px;
+  width: 60%;
+}
+
+.text-box p {
+  font-size: 16px;
+}
+
+.text-box select {
+  background-color: rgb(60, 179, 113);
+  border: 0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 20px;
+  height: auto;
+  margin-top: 15px;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.text-box textarea {
+  border-radius: 5px;
+  font-size: 16px;
+  height: 150px;
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.text-box .btn {
+  width: 100%;
+}
+
+@media(max-width: 1000px) {
+  h3 {
+    font-size: 24px;
+  }
+
+  .text-box {
+    padding: 30px 15px;
+    width: 90%;
+  }
+}
+
+@media(max-width: 700px) {
+  .btn {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .text-box {
+    padding: 20px 10px;
+    width: 95%;
+  }
+
+  .text-box select {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+}
+
+@media(max-width: 400px) {
+  .text-box {
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+    width: 100%;
+  }
+}
